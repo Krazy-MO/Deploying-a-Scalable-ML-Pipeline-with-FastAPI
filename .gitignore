@@ -177,3 +177,7 @@ pyrightconfig.json
 fastapi/
 
 # End of https://www.toptal.com/developers/gitignore/api/python
+
+# macOS metadata files (created on external drives)
+.DS_Store
+._*
