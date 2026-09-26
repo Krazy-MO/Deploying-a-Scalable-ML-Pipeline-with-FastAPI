@@ -36,11 +36,10 @@ cat_features = [
 
 # TODO: use the process_data function provided to process the data.
 X_train, y_train, encoder, lb = process_data(
-    train, # your code here
-    categorical_features=cat_features, # use the train dataset
+    train,
+    categorical_features=cat_features,
     label="salary",
     training=True
-    # do not need to pass encoder and lb as input
     )
 
 X_test, y_test, _, _ = process_data(
